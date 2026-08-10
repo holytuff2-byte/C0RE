@@ -47,12 +47,12 @@ class CORE(commands.Bot):
         await init_db()
 
         extensions = [
-            "cogs.moderation",
-            "cogs.security",
-            "cogs.utility",
-            "cogs.recruitment",
-            "cogs.clan",
-            "views.tickets"
+            "moderation",
+            "security",
+            "utility",
+            "recruitment",
+            "clan",
+            "tickets"
         ]
 
         print("Loading C0RE modules...")
